@@ -1,0 +1,95 @@
+#loading {
+    width: 100vw;
+    height: 100vh;
+    transition: all 2s;
+    background-color: #e3c7fd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  
+
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+body{
+    background-color:rgb(249, 227, 255);
+}
+a {
+    text-decoration: none;
+  }
+@media screen and (min-width: 481px){
+    h1{
+        font-family: fantasy;
+        line-height: 0.84;
+        font-size: 250px;
+        
+        text-align: center;
+        
+    }
+    #next{
+        border-radius: 50%;
+        display: block;
+        width: 70px;
+        height: 70px;
+        padding: 20px 5px;
+        border:3px solid#d792ff;
+        border-radius: 100px;
+        box-sizing: border-box;
+        background: rgb(249, 227, 255);
+        color: #d792ff;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #next:hover{
+        border:3px solid#bc80df;
+        color: #bc80df;
+    }
+    #n-btn{
+        margin-left: 50vw;
+    }
+    h2{
+        font-family: Comic Sans MS;
+    }
+
+    #about{
+        margin-top: 100vh;
+        text-align: center;
+        font-family:"Kokoro";
+    }
+
+    #head{
+        font-family: Comic Sans MS;
+        font-size: 50px;
+        position: fixed;
+        top: -3px;
+        left: 0px;
+        background-color: hsla(310, 85%, 82%, 0.502);
+        border:2px solid#d792ff;
+        width: 103vw;
+        height: 100px;
+    }
+    .btn{
+    color: black;
+    position: fixed;
+        top: 10px;
+        left: 20px;
+    }
+    .btn:hover{
+    color: rgb(150, 150, 150);
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    h1{
+        font-family: fantasy;
+        line-height: 0.84;
+        font-size: 100px;
+        position: absolute;
+    }
+}
